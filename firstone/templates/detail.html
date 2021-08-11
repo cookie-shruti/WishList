@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Details
+{% endblock title %}
+
+{% block body %}
+
+
+
+<div class="card text-center">
+    <div class="card-header text-primary">{{ Services.title }}</div>
+    <div class="card-body">
+      <h5 class="card-title text-primary">{{ Services.author.first_name }} {{ Services.author.last_name }}</h5>
+      <hr>
+      <p class="card-text text-primary">{{ Services.body }}</p>
+      
+    </div>
+    <div class="card-footer text-muted">
+     
+    </div>
+  </div>
+
+
+
+{% endblock body %}
+

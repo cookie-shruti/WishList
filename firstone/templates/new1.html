@@ -1,0 +1,194 @@
+{% extends 'base.html' %}
+
+{% block title %}
+home
+{% endblock title %}
+{% block body %}
+
+
+<div class="container-fluid px-0">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <!-- Change time in data-bs-interval******** And Img in src tag************** -->
+
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="https://source.unsplash.com/1600x500/?travel 
+            " class="d-block w-100" alt="...">
+          </div>
+          <!-- Change time in data-bs-interval******** And Img in src tag************** -->
+
+          <div class="carousel-item" data-bs-interval="10000">
+            <img src=" https://source.unsplash.com/1600x500/?nature" class="d-block w-100" alt="...">
+          </div>
+
+          <!-- Change time in data-bs-interval******** And Img in src tag************** -->
+
+          <div class="carousel-item" data-bs-interval="10000"> 
+            <img src="https://source.unsplash.com/1600x500/?beach" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</div>
+
+<div class="container text-center m-5" >
+
+    <h2 class="my-2 py-2">Welcome to my Website</h2>
+
+    <h4 class="my-3 text-primary">We share Travel stories and pictures!</h4>
+   <br>
+    <h4 class="mt-4 py-2">What's on your bucketlist?</h4>
+      <span class="text-primary"><h5>Mine: See the World</h5></span>  
+    
+
+
+
+</div>
+
+<div class="d-md-flex flex-md-equal w-100 my-md-5 pl-md-5 m-8">
+    <div class="bg-primary mr-md-6 pt-6 px-6 pt-md-5 px-md-5 text-center text-white overflow-hidden container-fluid">
+      <div class="my-3 py-3">
+        <h2 class="display-5">Share yor stories</h2>
+        <p class="lead">Amazing experiences will be shared to our audience</p>
+      </div>
+      <div class="bg-light box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+        <img src="https://source.unsplash.com/eOcyhe5-9sQ/400x300" style="border-radius: 21px 21px 0 0;" alt="">
+
+    </div>
+    </div>
+    <div class="bg-light mr-md-6 pt-6 px-6 pt-md-5 px-md-5 text-center overflow-hidden container-fluid">
+      <div class="my-3 p-3">
+        <h2 class="display-5">Share your images</h2>
+        <p class="lead">You can be potray in our site for one day</p>
+      </div>
+      <div class="bg-primary box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+        <img src="https://source.unsplash.com/collection/190727/400x300" style="border-radius: 21px 21px 0 0;" alt="">
+    </div>
+    </div>
+
+</div>
+
+<div class="heading">
+
+    <h3 class="text-center text-primary">Follow Famous Insta handle </h3>
+    <br>
+    <h5 class="mx-auto text-center mb-4">Watch Famous Bloggers adding sharing their journey to various part of world</h5>
+</div>
+
+
+<div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div class="card">
+        <img src="/static/img/mousad.png" class="rounded mx-auto d-block" style="height: 300px; width: 300px;" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-center">@muradosmann</h5>
+          <p class="card-text">Murad Osmann, is a Russian photographer based in Moscow. His series "Follow Me To", made with his wife Natalia Zakharova, went viral in 2012, and the couple have since been named as top travel influencers</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card">
+        <img src="/static/img/dytravel.png" class="card-img-top rounded mx-auto d-block " style="height: 300px; width: 300px"alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-center">@doyoutravel</h5>
+          <p class="card-text">Jack Morris started traveling when he was 21 and working as a carpet cleaner in Manchester, England.Currently he has 2.5M followers in Instagram</p>
+        </div>
+      </div>
+    </div>
+</div>
+
+   <div class="container-fluid bg-primary my-3 px-0 height:100px">
+     <h2 class="my-4 py-4 text-center text-white"> Join Us and Become part of our Community</h2>
+     <b><p class="mt-2 mb-4 py-2  text-center text-white">Watch our blogs in our Blogs page</p> </b>
+      
+     <div class="d-grid gap-2 col-6 mx-auto">
+     <button class="btn btn-outline-light mb-3 text-dark" type="button" > <a href="{{Link}}">Blogs</a></button> 
+      
+    </div>
+
+   </div>
+
+   <!-- <section once="" class="cid-qv5ALL8e7H" id="footer7-3k" data-rv-view="4087">
+
+    
+
+    <div class="mbr-overlay" style="opacity: 0.4; background-color: rgb(51, 42, 104);"></div>
+
+    <div class="container">
+        <div class="media-container-row align-center mbr-white">
+            <div class="row">
+                <ul class="foot-menu">
+                    
+                    
+                    
+                    
+                    
+                <li class="foot-menu-item mbr-fonts-style display-7">
+                        <a class="text-white mbr-bold" href="#" target="_blank">About us</a>
+                    </li><li class="foot-menu-item mbr-fonts-style display-7">
+                        <a class="text-white mbr-bold" href="#" target="_blank">Services</a>
+                    </li><li class="foot-menu-item mbr-fonts-style display-7">
+                        <a class="text-white mbr-bold" href="#" target="_blank">Get In Touch</a>
+                    </li><li class="foot-menu-item mbr-fonts-style display-7">
+                        <a class="text-white mbr-bold" href="#" target="_blank">Careers</a>
+                    </li><li class="foot-menu-item mbr-fonts-style display-7">
+                        <a class="text-white mbr-bold" href="#" target="_blank">Work</a>
+                    </li></ul>
+            </div>
+            <div class="row">
+                <div class="social-list align-right pb-2">
+                    
+                    
+                    
+                    
+                    
+                    
+                <div class="soc-item">
+                        <a href="https://twitter.com/mobirise" target="_blank">
+                            <span class="socicon-twitter socicon mbr-iconfont mbr-iconfont-social" media-simple="true"></span>
+                        </a>
+                    </div><div class="soc-item">
+                        <a href="https://www.facebook.com/pages/Mobirise/1616226671953247" target="_blank">
+                            <span class="socicon-facebook socicon mbr-iconfont mbr-iconfont-social" media-simple="true"></span>
+                        </a>
+                    </div><div class="soc-item">
+                        <a href="https://www.youtube.com/c/mobirise" target="_blank">
+                            <span class="socicon-youtube socicon mbr-iconfont mbr-iconfont-social" media-simple="true"></span>
+                        </a>
+                    </div><div class="soc-item">
+                        <a href="https://instagram.com/mobirise" target="_blank">
+                            <span class="socicon-instagram socicon mbr-iconfont mbr-iconfont-social" media-simple="true"></span>
+                        </a>
+                    </div><div class="soc-item">
+                        <a href="https://plus.google.com/u/0/+Mobirise" target="_blank">
+                            <span class="socicon-googleplus socicon mbr-iconfont mbr-iconfont-social" media-simple="true"></span>
+                        </a>
+                    </div><div class="soc-item">
+                        <a href="https://www.behance.net/Mobirise" target="_blank">
+                            <span class="socicon-behance socicon mbr-iconfont mbr-iconfont-social" media-simple="true"></span>
+                        </a>
+                    </div></div>
+            </div>
+            <div class="row row-copirayt">
+                <p class="mbr-text mb-0 mbr-fonts-style mbr-white display-7">
+                    © Copyright 2019 <a href="https://mobirise.com/bootstrap-template/" class="text-white">Free Bootstrap Templates</a> - All Rights Reserved
+                </p>
+            </div>
+        </div>
+    </div>
+</section> -->
+
+   
+  
+   
+
+{% endblock body %}
+
